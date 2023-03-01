@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/captcha/captcha.iml" filepath="$PROJECT_DIR$/captcha/captcha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customUserDetail/customUserDetail.iml" filepath="$PROJECT_DIR$/customUserDetail/customUserDetail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello/hello.iml" filepath="$PROJECT_DIR$/hello/hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/passwoedEncoder/passwoedEncoder.iml" filepath="$PROJECT_DIR$/passwoedEncoder/passwoedEncoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/remberMe/remberMe.iml" filepath="$PROJECT_DIR$/remberMe/remberMe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security.iml" filepath="$PROJECT_DIR$/security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session/session.iml" filepath="$PROJECT_DIR$/session/session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/token/token.iml" filepath="$PROJECT_DIR$/token/token.iml" />
+    </modules>
+  </component>
+</project>

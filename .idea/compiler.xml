@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="passwoedEncoder" />
+        <module name="captcha" />
+        <module name="session" />
+        <module name="customUserDetail" />
+        <module name="csrf" />
+        <module name="hello" />
+        <module name="remberMe" />
+        <module name="demo" />
+        <module name="token" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="captcha" target="1.8" />
+      <module name="csrf" target="1.8" />
+      <module name="customUserDetail" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="hello" target="1.8" />
+      <module name="passwoedEncoder" target="1.8" />
+      <module name="remberMe" target="1.8" />
+      <module name="session" target="1.8" />
+      <module name="token" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="captcha" options="-parameters" />
+      <module name="csrf" options="-parameters" />
+      <module name="customUserDetail" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="hello" options="-parameters" />
+      <module name="passwoedEncoder" options="-parameters" />
+      <module name="remberMe" options="-parameters" />
+      <module name="session" options="-parameters" />
+      <module name="token" options="-parameters" />
+    </option>
+  </component>
+</project>

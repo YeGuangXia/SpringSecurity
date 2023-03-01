@@ -1,0 +1,10 @@
+package com.yang.service;
+
+import org.springframework.security.core.userdetails.UserDetails;
+
+public interface UserService {
+
+    UserDetails loadUserByUsername(String username);
+
+    Integer updateUser(String username, String password);
+}

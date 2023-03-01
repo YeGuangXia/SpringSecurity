@@ -1,0 +1,30 @@
+package com.yang.controller;
+
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @Author: chenyang
+ * @DateTime: 2023/2/27 13:47
+ * @Description:
+ */
+@RestController
+public class HelloController {
+
+    @GetMapping("/hello")
+    public String hello() {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        User user = (User) authentication.getPrincipal();
+        System.out.println(user.toString());
+        return user.toString();
+    }
+
+
+    @GetMapping("/index")
+    public String index(){
+        return "index page";
+    }
+}
